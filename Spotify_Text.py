@@ -2,11 +2,11 @@ import spotipy
 from spotipy.oauth2 import SpotifyClientCredentials
 
 sp = spotipy.Spotify(auth_manager=SpotifyClientCredentials(
-    client_id="cd88df78cc2142ddbbf32896b756ac98",
-    client_secret="faae6d3817db459e91cd922eebed2175"
+    client_id= NULL,
+    client_secret= NULL
 ))
 
-playlist_id = "0AmZtyirrpOATm69XpAlw0"
+playlist_id = NULL
 results = sp.playlist_tracks(playlist_id)
 
 
